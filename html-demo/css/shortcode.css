@@ -1588,7 +1588,6 @@ div#clock span:first-child {
     position: absolute;
     width: 100%;
     z-index: 4;
-    padding-right: 40px;
     border-bottom: 1px solid rgb(10, 29, 53, .10);
 }
 .header-style-1 .site-branding {
@@ -1773,7 +1772,7 @@ div#clock span:first-child {
 .site-footer {
     background-color: var(--pbmit-light-color);
     color: var(--pbmit-secondary-color);
-    background-image: url(../images/bg/footer-bg.png);
+    background-image: url(../images/bg/footer-bg2.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2072,6 +2071,22 @@ div#clock span:first-child {
 .pbmit-breadcrumb-inner .sep {
     margin: 0 8px;
 }
+
+.pbmit-breadcrumb1,
+.pbmit-breadcrumb1 a {
+    font-family: var(--pbmit-body-typography-font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #ffffff!important;
+    text-transform: uppercase;
+    font-style: normal;
+}
+.pbmit-breadcrumb1-inner .sep {
+    margin: 0 8px;
+}
+
 .pbmit-title-bar-wrapper .list-inline-item {
     color: #fff;
     text-transform: uppercase;
@@ -2085,7 +2100,7 @@ div#clock span:first-child {
    color: var(--pbmit-global-color);
 }
 .pbmit-title-bar-style-1.pbmit-title-bar-wrapper{
-    background-image: url(../images/bg/titlebarbg2.png);
+    background-image: url(../images/bg/pbmit-testimonial-bg-011.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2100,6 +2115,64 @@ div#clock span:first-child {
     color: var(--pbmit-white-color);
 }
 .pbmit-title-bar-style-1 .pbmit-breadcrumb, .pbmit-title-bar-style-1 .pbmit-breadcrumb a{
+    color: var(--pbmit-white-color)!important;
+}
+
+.pbmit-title-bar-style-11.pbmit-title-bar-wrapper{
+    background-image: url(../images/bg/pexels-ekaterina-bolovtsova-6077123.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: transparent;
+    padding-top: 100px;
+}
+.pbmit-title-bar-style-11.pbmit-title-bar-wrapper:before{
+    display: none;
+}
+.pbmit-title-bar-style-11 .pbmit-title-bar-content .pbmit-tbar-title{
+    color: var(--pbmit-white-color);
+}
+.pbmit-title-bar-style-11 .pbmit-breadcrumb, .pbmit-title-bar-style-11 .pbmit-breadcrumb a{
+    color: var(--pbmit-white-)!important;
+}
+
+
+.pbmit-title-bar-style-111.pbmit-title-bar-wrapper{
+    background-image: url(../images/bg/pexels-pavel-danilyuk-8112195.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: transparent;
+    padding-top: 100px;
+}
+.pbmit-title-bar-style-111.pbmit-title-bar-wrapper:before{
+    display: none;
+}
+.pbmit-title-bar-style-111 .pbmit-title-bar-content .pbmit-tbar-title{
+    color: var(--pbmit-white-color);
+}
+.pbmit-title-bar-style-111 .pbmit-breadcrumb, .pbmit-title-bar-style-1 .pbmit-breadcrumb a{
+    color: var(--pbmit-white-color)!important;
+}
+
+.pbmit-title-bar-style-1111.pbmit-title-bar-wrapper{
+    background-image: url(../images/bg/blog-03b.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: transparent;
+    padding-top: 100px;
+}
+.pbmit-title-bar-style-1111.pbmit-title-bar-wrapper:before{
+    display: none;
+}
+.pbmit-title-bar-style-1111 .pbmit-title-bar-content .pbmit-tbar-title{
+    color: var(--pbmit-white-color);
+}
+.pbmit-title-bar-style-1111 .pbmit-breadcrumb, .pbmit-title-bar-style-1 .pbmit-breadcrumb a{
     color: var(--pbmit-white-color)!important;
 }
 
@@ -2953,7 +3026,7 @@ a.pbmit-rev-btn-effect-reverse:hover span {
     top: 3px;
     font-size: 25px;
     color: var(--pbmit-white-color);
-    transform: rotate(-45deg);
+    transform: rotate(45deg);
 }
 .pbmit-marquee-effect-style-1 .pbmit-tag-wrapper {
     margin-left: 100px;
